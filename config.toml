@@ -52,6 +52,8 @@ w = ["move_next_word_start", "yank_main_selection_to_clipboard", "delete_selecti
 [keys.normal.space]
 f = {s = [":w"]}
 q = [":q"]
+b = {q = [":buffer-close"]}
+
 
 [keys.normal.y]
 g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"] }
@@ -75,6 +77,5 @@ i = "select_textobject_inner"
 j = ["extend_line_down", "extend_to_line_bounds"]
 k = ["extend_line_up", "extend_to_line_bounds"]
 "%" = "match_brackets"
-S = "surround_add"
 u = ["switch_to_lowercase", "collapse_selection", "normal_mode"]
 U = ["switch_to_uppercase", "collapse_selection", "normal_mode"]
