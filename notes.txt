@@ -1,0 +1,5 @@
+# Some notes about the Helix editor
+
+## Mode: Normal
+
+`:tutor` - to start the built-in tutorial
