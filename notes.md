@@ -40,3 +40,8 @@ overall, it works based on object - action combinations
 - `,` - removes the first cursor (or first n cursors) of the two (or of x cursors)
 - `s` - selection (regex and regular) within a selection (also replace with `c`)
 - `x` select whatever, and `%` select whole file
+
+### Repetition
+
+- `.` - repeats the last insert command
+- `Alt-.` - repeats the last `f`/`t` selection
