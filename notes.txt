@@ -17,3 +17,21 @@ overall, it works based on object - action combinations
 
 v - visual mode,
 	extends currenttly marked text on which you may perform a given operation
+
+x - selects the whole line, each consecutive 'x' press repeats the operation
+; - colapses selection(s) to (a) single cursor(s).
+
+### Undo/redo
+
+u - undo
+U - redo
+
+### Copy/paste
+
+y - yank (copy) the selection
+p/P - paste the yanked selection after/before the cursor
+
+### Search in file
+
+- like in Vim: / and ?
+- n and N - but n always moves forwards, and N always moves backwards
