@@ -33,3 +33,10 @@ overall, it works based on object - action combinations
 
 - like in Vim: `/` and `?`
 - `n` and `N` - but `n` always moves forwards, and `N` always moves backwards
+
+### Multiple Cursors
+
+- `C` - duplicates cursor to the next suitable line.
+- `,` - removes the first cursor (or first n cursors) of the two (or of x cursors)
+- `s` - selection (regex and regular) within a selection (also replace with `c`)
+- `x` select whatever, and `%` select whole file
