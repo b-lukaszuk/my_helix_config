@@ -63,3 +63,13 @@ by default search goes to register `/`, `*` copies lecection into register `/`
 
 - `Q` - start/end recording a macro (by default goes to register `@`)
 - `q` - repeat the macro from register `@`
+
+### Changing case
+
+- `~` switch case
+- `` ` `` - switch to lowercase
+- `` Alt-` `` - switch to uppercase
+
+### Comments
+
+- `Ctrl-c` - toggle comment/uncomment
