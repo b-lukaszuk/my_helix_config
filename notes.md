@@ -73,3 +73,12 @@ by default search goes to register `/`, `*` copies lecection into register `/`
 ### Comments
 
 - `Ctrl-c` - toggle comment/uncomment
+
+### Match mode
+
+- `m` - while standing on `(`, `[` or `{` moves to the match (back and forth)
+- `mi` and `(`, `[` or `{` marks contents of parenthesis
+- `ma` and `(`, `[` or `{` marks contents of parenthesis with them
+- `m(`, etc. - surround marked text with parentheses
+- `md(`, etc. - deletes parentheses around marked text
+- `mr([`, etc. replaces `()` with `[]`
