@@ -45,3 +45,13 @@ overall, it works based on object - action combinations
 
 - `.` - repeats the last insert command
 - `Alt-.` - repeats the last `f`/`t` selection
+
+### Replace
+
+- `r` replaces selection with a character
+- `R` replaces the selection with previously yanked text
+
+### Increment and decrement
+
+- `Ctrl-a` - increments number under selection
+- `Ctrl-x` - decrements number under selection
