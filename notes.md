@@ -33,6 +33,9 @@ overall, it works based on object - action combinations
 
 - like in Vim: `/` and `?`
 - `n` and `N` - but `n` always moves forwards, and `N` always moves backwards
+- `gv` - like avy-goto-char2 in Emacs
+
+by default search goes to register `/`, `*` copies lecection into register `/`
 
 ### Multiple Cursors
 
@@ -55,3 +58,8 @@ overall, it works based on object - action combinations
 
 - `Ctrl-a` - increments number under selection
 - `Ctrl-x` - decrements number under selection
+
+### Macros
+
+- `Q` - start/end recording a macro (by default goes to register `@`)
+- `q` - repeat the macro from register `@`
