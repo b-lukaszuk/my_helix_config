@@ -82,3 +82,23 @@ by default search goes to register `/`, `*` copies lecection into register `/`
 - `m(`, etc. - surround marked text with parentheses
 - `md(`, etc. - deletes parentheses around marked text
 - `mr([`, etc. replaces `()` with `[]`
+
+### Windows
+
+- `C-w` - opens a submenu that allows to do stuff with windows
+
+Quite a few of `C-w` commands are like in Vim.
+
+- `C-w nv` - opens scratch buffer in vertical split
+- `C-w ns` - opens scratch buffer in horizontal split
+- `:vs buffer_or_file_to_open` - opens a buffer or file in vertical split
+- `:hs buffer_or_file_to_open` -  opens a buffer or file in horizontal split
+- `C-w t` - two way transpose between vertical and horizontal split
+- `C-w K`/`C-w J` - swap with window above/below
+- `C-w H`/`C-w L` - swap with window on the left/right
+
+While in file picker (`space f`) press `Enter` to open file in current window
+or `C-v`/`C-s` to open it in new vertical/horizontal split
+
+- `C-w o` - close all other splits except currently active window
+- `C-w q` - close current window
