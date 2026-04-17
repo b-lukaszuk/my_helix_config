@@ -102,3 +102,8 @@ or `C-v`/`C-s` to open it in new vertical/horizontal split
 
 - `C-w o` - close all other splits except currently active window
 - `C-w q` - close current window
+
+### Gotos
+
+- `gg`/`ge` - goto beginning/end of file
+- `gh`/`gl` - goto beginning/end of line
