@@ -33,7 +33,7 @@ overall, it works based on object - action combinations
 
 - like in Vim: `/` and `?`
 - `n` and `N` - but `n` always moves forwards, and `N` always moves backwards
-- `gv` - like avy-goto-char2 in Emacs
+- `gw` - like avy-goto-char2 in Emacs
 
 by default search goes to register `/`, `*` copies lecection into register `/`
 
