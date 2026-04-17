@@ -15,9 +15,9 @@
 overall, it works based on object - action combinations
 (changing/adding muscle memory to Vim like keybindings may be painful)
 
-- `v` - visual mode, extends currenttly marked text on which you may perform a given operation
+- `v` - visual mode, extends currently marked text on which you may perform a given operation
 - `x` - selects the whole line, each consecutive 'x' press repeats the operation
-- `;` - colapses selection(s) to (a) single cursor(s).
+- `;` - collapses selection(s) to (a) single cursor(s).
 
 ### Undo/redo
 
@@ -35,7 +35,7 @@ overall, it works based on object - action combinations
 - `n` and `N` - but `n` always moves forwards, and `N` always moves backwards
 - `gw` - like avy-goto-char2 in Emacs
 
-by default search goes to register `/`, `*` copies lecection into register `/`
+by default search goes to register `/`, `*` copies selection into register `/`
 
 ### Multiple Cursors
 
@@ -85,7 +85,7 @@ by default search goes to register `/`, `*` copies lecection into register `/`
 
 ### Windows
 
-- `C-w` - opens a submenu that allows to do stuff with windows
+- `C-w` - opens a sub-menu that allows to do stuff with windows
 
 Quite a few of `C-w` commands are like in Vim.
 
