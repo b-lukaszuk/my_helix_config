@@ -107,3 +107,13 @@ or `C-v`/`C-s` to open it in new vertical/horizontal split
 
 - `gg`/`ge` - goto beginning/end of file
 - `gh`/`gl` - goto beginning/end of line
+
+## Languages
+
+Language settings are configured in languages.toml.
+
+Important sections:
+
+- `[[language]]`
+- `[[language-server]]`
+- `[[grammar]]`
