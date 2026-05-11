@@ -112,8 +112,17 @@ or `C-v`/`C-s` to open it in new vertical/horizontal split
 
 Language settings are configured in languages.toml.
 
+`languages.toml` locations
+- Helix source code from [Helix repository](https://github.com/helix-editor/helix/blob/master/languages.toml) (default config)
+- my configuration directory (like `~/.config/helix/` next to `config.toml` file)
+- in a `.helix` folder in a project
+
 Important sections:
 
 - `[[language]]`
 - `[[language-server]]`
 - `[[grammar]]`
+
+### LSP
+
+Info on [LSP](https://github.com/helix-editor/helix/wiki/Language-Server-Configurations)
